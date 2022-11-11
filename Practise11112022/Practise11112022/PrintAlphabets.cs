@@ -15,5 +15,15 @@ namespace Practise11112022
                 Console.Write(c);
             }
         }
+
+        public void AplhabetsSmall()
+        {
+            char c;
+            Console.WriteLine("\n");
+            for (c = 'a'; c <= 'z'; c++)
+            {
+                Console.Write(c);
+            }
+        }
     }
 }
