@@ -6,7 +6,7 @@ namespace Practise11112022
 {
     public class MultiplicationTable
     {
-        public void table()
+        public void Table()
         {
             Console.Write("Input the Table number : ");
             int n = Convert.ToInt32(Console.ReadLine());

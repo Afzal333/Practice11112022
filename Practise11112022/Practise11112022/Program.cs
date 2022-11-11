@@ -11,7 +11,9 @@ namespace Practise11112022
             Console.WriteLine("1. Print Alphabets A to Z"+"\n"+
                               "2. ASCII values of all characters"+"\n"+
                               "3. Multiplication Table"+"\n"+
-                              "4. Power Number");
+                              "4. Power Number"+"\n"+
+                              "5. Factorial"+"\n");
+
             int options = Convert.ToInt32(Console.ReadLine());
             switch (options)
             {
@@ -34,7 +36,7 @@ namespace Practise11112022
                     break;
                 case 3:
                     MultiplicationTable multiplicationTable = new MultiplicationTable();
-                    multiplicationTable.table();
+                    multiplicationTable.Table();
                     break;
                 case 4:
                     PowerNumber powerNumber = new PowerNumber();
@@ -48,6 +50,11 @@ namespace Practise11112022
                     }else
                         powerNumber.PowerUsingFor();
                     break;
+                case 5:
+                    Factorial factorial = new Factorial();
+                    factorial.number();
+                    break;
+                
                         
 
             }
